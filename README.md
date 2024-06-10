@@ -1,1 +1,6 @@
-# TWL_ShapleyEffects
+# Assessing coastal flooding uncertainties using global sensitivity analysis
+Use of a variance-based global sensitivity analysis called ”Shapley effects” to quantify the contributing uncertainty in total water levels by mean sea level, astronomical tide, storm surge and runup/wave dynamics, both historically and for future projections up to 2099. The study areas are Ōrewa and Muriwai beaches, located on the East and West coasts of New Zealand, characterized by entirely different processes and conditions.
+
+Sea-level rise scenarios, astronomical tides, storm surge and wave data used in this study are publicly available. Sea-level rise scenarios, including vertical land motion, are provided by the [New Zealand SeaRise Project](https://www.searise.nz/). Astronomical tides are provided by [NIWA](https://tides.niwa.co.nz/). Storm surge and wave data can be visualized and downloaded on an interactive web dashboard from [Coastal and Ocean Collective](https://coastalhub.science/data). 
+
+The implementation of Shapley Effects was realized by applying the sobolshap knn() ([Broto et al., 2020](https://epubs.siam.org/doi/10.1137/18M1234631); [Song et al., 2016](https://epubs.siam.org/doi/10.1137/15M1048070)) algorithm implemented in the [sensitivity](https://cran.r-project.org/web/packages/sensitivity/index.html) R package.
