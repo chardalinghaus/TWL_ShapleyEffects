@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from utide import solve, reconstruct
 
-os.chdir("")
+os.chdir("C:/")
 
 #%%
 ## ======================== Extract Tidal Constituents ========================
