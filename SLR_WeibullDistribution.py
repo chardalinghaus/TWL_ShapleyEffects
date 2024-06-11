@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import cm
 from scipy.stats import weibull_min
 
-os.chdir("")
+os.chdir("C:/")
 
 #%%
 ###############################################################################
