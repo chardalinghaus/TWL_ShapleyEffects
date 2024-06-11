@@ -5,7 +5,7 @@ Extraction of tidal constituents, reconstruction and prediction of Tides using t
 @author: Charline Dalinghaus
 """
 
-import osxx
+import os
 import pickle
 
 import matplotlib.pyplot as plt
