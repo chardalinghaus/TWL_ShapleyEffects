@@ -1,4 +1,4 @@
-# Assessing coastal flooding uncertainties using global sensitivity analysis
+# Assessing coastal flooding uncertainties using global sensitivity analysis [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11589348.svg)](https://doi.org/10.5281/zenodo.11589348)
 Use of a variance-based global sensitivity analysis called ”Shapley effects” to quantify the contributing uncertainty in total water levels by mean sea level, astronomical tide, storm surge and runup/wave dynamics, both historically and for future projections up to 2099. The study areas are Ōrewa and Muriwai beaches, located on the East and West coasts of New Zealand, characterized by entirely different processes and conditions.
 
 Sea-level rise scenarios, astronomical tides, storm surge and wave data used in this study are publicly available. Sea-level rise scenarios, including vertical land motion, are provided by the [New Zealand SeaRise Project](https://www.searise.nz/). Astronomical tides are provided by [NIWA](https://tides.niwa.co.nz/). Storm surge and wave data can be visualized and downloaded on an interactive web dashboard from [Coastal and Ocean Collective](https://coastalhub.science/data). 
