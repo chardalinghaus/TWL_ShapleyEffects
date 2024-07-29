@@ -11,3 +11,6 @@ Sea-level rise scenarios, astronomical tides, storm surge and wave data used in 
 The implementation of Shapley Effects (**Shapley_Effects.R**) was realized by applying the sobolshap_knn() ([Broto et al., 2020](https://epubs.siam.org/doi/10.1137/18M1234631); [Song et al., 2016](https://epubs.siam.org/doi/10.1137/15M1048070)) algorithm implemented in the [sensitivity](https://cran.r-project.org/web/packages/sensitivity/index.html) R package. Finally, the results can be visualized with **Shapley_Effects_Plot.py**.
 
 Note that the scripts here are for near-future scenarios but can easily be modified for other time periods.
+
+## Reference
+Dalinghaus, C., Coco, G., and Higuera, P. Assessing coastal flooding uncertainties using global sensitivity analysis, Authorea. https://doi.org/10.22541/au.172124523.30425223/v1, 2024.
