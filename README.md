@@ -4,6 +4,7 @@ Use of a variance-based global sensitivity analysis called ”Shapley effects”
 Sea-level rise scenarios, astronomical tides, storm surge and wave data used in this study are publicly available. Sea-level rise scenarios, including vertical land motion, are provided by the [New Zealand SeaRise Project](https://www.searise.nz/). Astronomical tides are provided by [NIWA](https://tides.niwa.co.nz/). Storm surge and wave data can be visualized and downloaded on an interactive web dashboard from [Coastal and Ocean Collective](https://coastalhub.science/data). 
 
 **SLR_WeibullDistribution.py**: After downloaded, we fitted a Weibull distribution for each sea level rise scenario, generating probability distributions. Using linear interpolation, we generated a comprehensive projected uniform sea level rise distribution with 5000 values per year. 
+
 **AT_TidePredictions.py**: Extraction of tidal constituents, reconstruction and prediction of future tides.
 
 **MonteCarloSimulations.py**: After preparing the data, we sampled and estimated 100,000 values of total water level per year.
