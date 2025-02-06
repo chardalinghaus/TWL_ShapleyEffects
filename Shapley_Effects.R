@@ -49,6 +49,11 @@ for (year in names(twl_per_year)) {
   year_twl <- twl_per_year[[year]]
   # Compute Sobol and Shapley effects using KNN method
   X <- year_twl[, c("SLR", "AT", "SS", "Runup", "Setup_Eq", "Swash_Eq", "βf", "Scenario", "Model")]
+  X$Setup_Eq <- as.factor(X$Setup_Eq) #Convert categorical inputs into factors
+  X$Swash_Eq <- as.factor(X$Swash_Eq)
+  X$βf <- as.factor(X$βf)
+  X$Scenario <- as.factor(X$Scenario)
+  X$Model <- as.factor(X$Model)
   Y <- year_twl[, c("TWL")]
   
   results <- shapleysobol_knn(model=TWL, X, method = "knn", n.knn = 20, n.limit = 2000, U = NULL,
